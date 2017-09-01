@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0F3A2131F58EDA600C39481 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F3A2121F58EDA600C39481 /* main.m */; };
+		A0F3A2161F58EDA600C39481 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F3A2151F58EDA600C39481 /* AppDelegate.m */; };
+		A0F3A2191F58EDA600C39481 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F3A2181F58EDA600C39481 /* ViewController.m */; };
+		A0F3A21C1F58EDA600C39481 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0F3A21A1F58EDA600C39481 /* Main.storyboard */; };
+		A0F3A21E1F58EDA600C39481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0F3A21D1F58EDA600C39481 /* Assets.xcassets */; };
+		A0F3A2211F58EDA600C39481 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0F3A21F1F58EDA600C39481 /* LaunchScreen.storyboard */; };
+		A0F3A22C1F58EDA600C39481 /* pcm_______Mp3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F3A22B1F58EDA600C39481 /* pcm_______Mp3Tests.m */; };
+		A0F3A2371F58EDA600C39481 /* pcm_______Mp3UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F3A2361F58EDA600C39481 /* pcm_______Mp3UITests.m */; };
+		A0F3A2481F58F4C400C39481 /* lame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0F3A2471F58F4C400C39481 /* lame.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0F3A2281F58EDA600C39481 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0F3A2061F58EDA600C39481 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0F3A20D1F58EDA600C39481;
+			remoteInfo = "pcm录制音频转换成Mp3";
+		};
+		A0F3A2331F58EDA600C39481 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0F3A2061F58EDA600C39481 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0F3A20D1F58EDA600C39481;
+			remoteInfo = "pcm录制音频转换成Mp3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0F3A20E1F58EDA600C39481 /* pcm录制音频转换成Mp3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pcm录制音频转换成Mp3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0F3A2121F58EDA600C39481 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A0F3A2141F58EDA600C39481 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A0F3A2151F58EDA600C39481 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A0F3A2171F58EDA600C39481 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A0F3A2181F58EDA600C39481 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A0F3A21B1F58EDA600C39481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0F3A21D1F58EDA600C39481 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0F3A2201F58EDA600C39481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0F3A2221F58EDA600C39481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0F3A2271F58EDA600C39481 /* pcm录制音频转换成Mp3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pcm录制音频转换成Mp3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0F3A22B1F58EDA600C39481 /* pcm_______Mp3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "pcm_______Mp3Tests.m"; sourceTree = "<group>"; };
+		A0F3A22D1F58EDA600C39481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0F3A2321F58EDA600C39481 /* pcm录制音频转换成Mp3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pcm录制音频转换成Mp3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0F3A2361F58EDA600C39481 /* pcm_______Mp3UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "pcm_______Mp3UITests.m"; sourceTree = "<group>"; };
+		A0F3A2381F58EDA600C39481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0F3A2471F58F4C400C39481 /* lame.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = lame.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0F3A20B1F58EDA600C39481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F3A2481F58F4C400C39481 /* lame.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0F3A2241F58EDA600C39481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0F3A22F1F58EDA600C39481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0F3A2051F58EDA600C39481 = {
+			isa = PBXGroup;
+			children = (
+				A0F3A2101F58EDA600C39481 /* pcm录制音频转换成Mp3 */,
+				A0F3A22A1F58EDA600C39481 /* pcm录制音频转换成Mp3Tests */,
+				A0F3A2351F58EDA600C39481 /* pcm录制音频转换成Mp3UITests */,
+				A0F3A20F1F58EDA600C39481 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0F3A20F1F58EDA600C39481 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0F3A20E1F58EDA600C39481 /* pcm录制音频转换成Mp3.app */,
+				A0F3A2271F58EDA600C39481 /* pcm录制音频转换成Mp3Tests.xctest */,
+				A0F3A2321F58EDA600C39481 /* pcm录制音频转换成Mp3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0F3A2101F58EDA600C39481 /* pcm录制音频转换成Mp3 */ = {
+			isa = PBXGroup;
+			children = (
+				A0F3A2471F58F4C400C39481 /* lame.framework */,
+				A0F3A2141F58EDA600C39481 /* AppDelegate.h */,
+				A0F3A2151F58EDA600C39481 /* AppDelegate.m */,
+				A0F3A2171F58EDA600C39481 /* ViewController.h */,
+				A0F3A2181F58EDA600C39481 /* ViewController.m */,
+				A0F3A21A1F58EDA600C39481 /* Main.storyboard */,
+				A0F3A21D1F58EDA600C39481 /* Assets.xcassets */,
+				A0F3A21F1F58EDA600C39481 /* LaunchScreen.storyboard */,
+				A0F3A2221F58EDA600C39481 /* Info.plist */,
+				A0F3A2111F58EDA600C39481 /* Supporting Files */,
+			);
+			path = "pcm录制音频转换成Mp3";
+			sourceTree = "<group>";
+		};
+		A0F3A2111F58EDA600C39481 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0F3A2121F58EDA600C39481 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0F3A22A1F58EDA600C39481 /* pcm录制音频转换成Mp3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A0F3A22B1F58EDA600C39481 /* pcm_______Mp3Tests.m */,
+				A0F3A22D1F58EDA600C39481 /* Info.plist */,
+			);
+			path = "pcm录制音频转换成Mp3Tests";
+			sourceTree = "<group>";
+		};
+		A0F3A2351F58EDA600C39481 /* pcm录制音频转换成Mp3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A0F3A2361F58EDA600C39481 /* pcm_______Mp3UITests.m */,
+				A0F3A2381F58EDA600C39481 /* Info.plist */,
+			);
+			path = "pcm录制音频转换成Mp3UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0F3A20D1F58EDA600C39481 /* pcm录制音频转换成Mp3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0F3A23B1F58EDA600C39481 /* Build configuration list for PBXNativeTarget "pcm录制音频转换成Mp3" */;
+			buildPhases = (
+				A0F3A20A1F58EDA600C39481 /* Sources */,
+				A0F3A20B1F58EDA600C39481 /* Frameworks */,
+				A0F3A20C1F58EDA600C39481 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pcm录制音频转换成Mp3";
+			productName = "pcm录制音频转换成Mp3";
+			productReference = A0F3A20E1F58EDA600C39481 /* pcm录制音频转换成Mp3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0F3A2261F58EDA600C39481 /* pcm录制音频转换成Mp3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0F3A23E1F58EDA600C39481 /* Build configuration list for PBXNativeTarget "pcm录制音频转换成Mp3Tests" */;
+			buildPhases = (
+				A0F3A2231F58EDA600C39481 /* Sources */,
+				A0F3A2241F58EDA600C39481 /* Frameworks */,
+				A0F3A2251F58EDA600C39481 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0F3A2291F58EDA600C39481 /* PBXTargetDependency */,
+			);
+			name = "pcm录制音频转换成Mp3Tests";
+			productName = "pcm录制音频转换成Mp3Tests";
+			productReference = A0F3A2271F58EDA600C39481 /* pcm录制音频转换成Mp3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0F3A2311F58EDA600C39481 /* pcm录制音频转换成Mp3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0F3A2411F58EDA600C39481 /* Build configuration list for PBXNativeTarget "pcm录制音频转换成Mp3UITests" */;
+			buildPhases = (
+				A0F3A22E1F58EDA600C39481 /* Sources */,
+				A0F3A22F1F58EDA600C39481 /* Frameworks */,
+				A0F3A2301F58EDA600C39481 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0F3A2341F58EDA600C39481 /* PBXTargetDependency */,
+			);
+			name = "pcm录制音频转换成Mp3UITests";
+			productName = "pcm录制音频转换成Mp3UITests";
+			productReference = A0F3A2321F58EDA600C39481 /* pcm录制音频转换成Mp3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0F3A2061F58EDA600C39481 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = sjhz;
+				TargetAttributes = {
+					A0F3A20D1F58EDA600C39481 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A7Q9L6EB2H;
+						ProvisioningStyle = Automatic;
+					};
+					A0F3A2261F58EDA600C39481 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A7Q9L6EB2H;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A0F3A20D1F58EDA600C39481;
+					};
+					A0F3A2311F58EDA600C39481 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A7Q9L6EB2H;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A0F3A20D1F58EDA600C39481;
+					};
+				};
+			};
+			buildConfigurationList = A0F3A2091F58EDA600C39481 /* Build configuration list for PBXProject "pcm录制音频转换成Mp3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0F3A2051F58EDA600C39481;
+			productRefGroup = A0F3A20F1F58EDA600C39481 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0F3A20D1F58EDA600C39481 /* pcm录制音频转换成Mp3 */,
+				A0F3A2261F58EDA600C39481 /* pcm录制音频转换成Mp3Tests */,
+				A0F3A2311F58EDA600C39481 /* pcm录制音频转换成Mp3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0F3A20C1F58EDA600C39481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F3A2211F58EDA600C39481 /* LaunchScreen.storyboard in Resources */,
+				A0F3A21E1F58EDA600C39481 /* Assets.xcassets in Resources */,
+				A0F3A21C1F58EDA600C39481 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0F3A2251F58EDA600C39481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0F3A2301F58EDA600C39481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0F3A20A1F58EDA600C39481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F3A2191F58EDA600C39481 /* ViewController.m in Sources */,
+				A0F3A2161F58EDA600C39481 /* AppDelegate.m in Sources */,
+				A0F3A2131F58EDA600C39481 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0F3A2231F58EDA600C39481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F3A22C1F58EDA600C39481 /* pcm_______Mp3Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0F3A22E1F58EDA600C39481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F3A2371F58EDA600C39481 /* pcm_______Mp3UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0F3A2291F58EDA600C39481 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0F3A20D1F58EDA600C39481 /* pcm录制音频转换成Mp3 */;
+			targetProxy = A0F3A2281F58EDA600C39481 /* PBXContainerItemProxy */;
+		};
+		A0F3A2341F58EDA600C39481 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0F3A20D1F58EDA600C39481 /* pcm录制音频转换成Mp3 */;
+			targetProxy = A0F3A2331F58EDA600C39481 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0F3A21A1F58EDA600C39481 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0F3A21B1F58EDA600C39481 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0F3A21F1F58EDA600C39481 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0F3A2201F58EDA600C39481 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0F3A2391F58EDA600C39481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0F3A23A1F58EDA600C39481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0F3A23C1F58EDA600C39481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A7Q9L6EB2H;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/pcm录制音频转换成Mp3",
+				);
+				INFOPLIST_FILE = "pcm录制音频转换成Mp3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sjhz.pcm-------Mp3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A0F3A23D1F58EDA600C39481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A7Q9L6EB2H;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/pcm录制音频转换成Mp3",
+				);
+				INFOPLIST_FILE = "pcm录制音频转换成Mp3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sjhz.pcm-------Mp3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A0F3A23F1F58EDA600C39481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A7Q9L6EB2H;
+				INFOPLIST_FILE = "pcm录制音频转换成Mp3Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sjhz.pcm-------Mp3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pcm录制音频转换成Mp3.app/pcm录制音频转换成Mp3";
+			};
+			name = Debug;
+		};
+		A0F3A2401F58EDA600C39481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A7Q9L6EB2H;
+				INFOPLIST_FILE = "pcm录制音频转换成Mp3Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sjhz.pcm-------Mp3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pcm录制音频转换成Mp3.app/pcm录制音频转换成Mp3";
+			};
+			name = Release;
+		};
+		A0F3A2421F58EDA600C39481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = A7Q9L6EB2H;
+				INFOPLIST_FILE = "pcm录制音频转换成Mp3UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sjhz.pcm-------Mp3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "pcm录制音频转换成Mp3";
+			};
+			name = Debug;
+		};
+		A0F3A2431F58EDA600C39481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = A7Q9L6EB2H;
+				INFOPLIST_FILE = "pcm录制音频转换成Mp3UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sjhz.pcm-------Mp3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "pcm录制音频转换成Mp3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0F3A2091F58EDA600C39481 /* Build configuration list for PBXProject "pcm录制音频转换成Mp3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0F3A2391F58EDA600C39481 /* Debug */,
+				A0F3A23A1F58EDA600C39481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0F3A23B1F58EDA600C39481 /* Build configuration list for PBXNativeTarget "pcm录制音频转换成Mp3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0F3A23C1F58EDA600C39481 /* Debug */,
+				A0F3A23D1F58EDA600C39481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A0F3A23E1F58EDA600C39481 /* Build configuration list for PBXNativeTarget "pcm录制音频转换成Mp3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0F3A23F1F58EDA600C39481 /* Debug */,
+				A0F3A2401F58EDA600C39481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A0F3A2411F58EDA600C39481 /* Build configuration list for PBXNativeTarget "pcm录制音频转换成Mp3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0F3A2421F58EDA600C39481 /* Debug */,
+				A0F3A2431F58EDA600C39481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0F3A2061F58EDA600C39481 /* Project object */;
+}
